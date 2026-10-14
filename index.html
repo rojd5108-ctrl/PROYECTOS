@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AeroEstructuras - Empresa constructora. Construcción, diseño y desarrollo de proyectos."
+    />
+    <title>AeroEstructuras | Inicio</title>
+
+    <!-- Google Fonts: personalización de fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Iconos (Font Awesome) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- Hoja de estilos propia -->
+    <link rel="stylesheet" href="css/inicio.css" />
+  </head>
+
+  <body>
+    <!-- ===================== HEADER ===================== -->
+    <header class="encabezado">
+      <div class="contenedor encabezado__fila">
+        <a href="index.html" class="logo">
+          <img
+            src="img/logo.png"
+            alt="Logo de AeroEstructuras"
+            class="logo__img"
+          />
+          <div class="logo__texto">
+            <h1 class="logo__titulo">Aero<span>Estructuras</span></h1>
+            <p class="logo__lema">Construyendo tus sueños</p>
+          </div>
+        </a>
+
+        <nav class="menu">
+          <ul class="menu__lista">
+            <li>
+              <a href="index.html" class="menu__enlace menu__enlace--activo"
+                >Inicio</a
+              >
+            </li>
+            <li>
+              <a href="html/nosotros.html" class="menu__enlace">Nosotros</a>
+            </li>
+            <li>
+              <a href="html/servicios.html" class="menu__enlace">Servicios</a>
+            </li>
+            <li>
+              <a href="html/proyectos.html" class="menu__enlace">Proyectos</a>
+            </li>
+            <li>
+              <a href="html/contacto.html" class="menu__enlace">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="acciones">
+          <a href="html/contacto.html" class="boton boton--amarillo">
+            <i class="fa-solid fa-phone"></i>
+            <span>Contáctanos</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- ===================== MAIN ===================== -->
+    <main>
+      <!-- ---------- HERO ---------- -->
+      <section class="hero" id="inicio">
+        <div class="contenedor">
+          <article class="hero__contenido">
+            <p class="hero__etiqueta">Construcción · Diseño · Desarrollo</p>
+            <h2 class="hero__titulo">
+              Hacemos realidad <br /><span>tus proyectos</span>
+            </h2>
+            <p class="hero__texto">
+              Somos una empresa constructora comprometida con la calidad,<br />
+              la seguridad y la satisfacción de nuestros clientes.
+            </p>
+            <div class="hero__botones">
+              <a href="html/proyectos.html" class="boton boton--amarillo"
+                ><span>Nuestros proyectos</span>
+                <i class="fa-solid fa-chevron-right"></i
+              ></a>
+              <a href="html/nosotros.html" class="boton boton--borde"
+                >Conoce más</a
+              >
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ---------- CARACTERÍSTICAS ---------- -->
+      <section class="caracteristicas">
+        <div class="contenedor caracteristicas__fila">
+          <article class="caracteristica">
+            <i class="fa-solid fa-shield-halved caracteristica__icono"></i>
+            <div>
+              <h3>Calidad garantizada</h3>
+              <p>
+                Utilizamos los mejores materiales y los más altos estándares de
+                construcción.
+              </p>
+            </div>
+          </article>
+
+          <article class="caracteristica">
+            <i class="fa-solid fa-helmet-safety caracteristica__icono"></i>
+            <div>
+              <h3>Equipo profesional</h3>
+              <p>
+                Contamos con un equipo de expertos en todas las áreas de la
+                construcción.
+              </p>
+            </div>
+          </article>
+
+          <article class="caracteristica">
+            <i class="fa-regular fa-clock caracteristica__icono"></i>
+            <div>
+              <h3>Cumplimiento de plazos</h3>
+              <p>
+                Planificamos y ejecutamos cada proyecto en el tiempo acordado.
+              </p>
+            </div>
+          </article>
+
+          <article class="caracteristica">
+            <i class="fa-solid fa-leaf caracteristica__icono"></i>
+            <div>
+              <h3>Compromiso con el entorno</h3>
+              <p>
+                Desarrollamos proyectos sostenibles y responsables con el medio
+                ambiente.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ---------- PROYECTOS DESTACADOS ---------- -->
+      <section class="proyectos" id="proyectos-destacados">
+        <div class="contenedor">
+          <div class="proyectos__cabecera">
+            <div>
+              <p class="etiqueta">Proyectos destacados</p>
+              <h2 class="proyectos__titulo">Obras que construyen futuro</h2>
+            </div>
+            <a href="html/proyectos.html" class="enlace-flecha"
+              ><span>Ver todos los proyectos</span>
+              <i class="fa-solid fa-chevron-right"></i
+            ></a>
+          </div>
+
+          <div class="proyectos__grilla">
+            <article class="tarjeta">
+              <img
+                src="img/proyecto1.jpg"
+                alt="Torre residencial moderna"
+                class="tarjeta__img"
+              />
+              <div class="tarjeta__info">
+                <h3>Torre Residencial</h3>
+                <p>Residencial | Lima, Perú</p>
+              </div>
+            </article>
+
+            <article class="tarjeta">
+              <img
+                src="img/proyecto2.jpg"
+                alt="Edificio residencial de departamentos"
+                class="tarjeta__img"
+              />
+              <div class="tarjeta__info">
+                <h3>Edificio Residencial</h3>
+                <p>Departamentos | Miraflores</p>
+              </div>
+            </article>
+
+            <article class="tarjeta">
+              <img
+                src="img/proyecto3.jpg"
+                alt="Centro comercial con fachada de vidrio"
+                class="tarjeta__img"
+              />
+              <div class="tarjeta__info">
+                <h3>Centro Comercial</h3>
+                <p>Comercial | San Isidro</p>
+              </div>
+            </article>
+
+            <article class="tarjeta">
+              <img
+                src="img/proyecto4.jpg"
+                alt="Nave industrial en construcción"
+                class="tarjeta__img"
+              />
+              <div class="tarjeta__info">
+                <h3>Nave Industrial</h3>
+                <p>Industrial | Ate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="pie">
+      <div class="contenedor pie__fila">
+        <div class="pie__columna">
+          <h3>AeroEstructuras</h3>
+          <p>
+            Empresa constructora dedicada a la ejecución de proyectos<br />
+            con calidad, seguridad y compromiso.
+          </p>
+        </div>
+
+        <div class="pie__columna">
+          <h3>Contáctanos</h3>
+          <p>Av. Los Constructores 123, Surco<br />Lima, Perú</p>
+          <div class="pie__iconos">
+            <a href="mailto:contacto@aeroestructuras.com" title="Correo"
+              ><i class="fa-regular fa-envelope"></i
+            ></a>
+            <a href="tel:+51987654321" title="Teléfono"
+              ><i class="fa-solid fa-mobile-screen"></i
+            ></a>
+            <a href="https://www.linkedin.com" target="_blank" title="LinkedIn"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="pie__columna">
+          <h3>Horario de atención</h3>
+          <p>
+            Lunes a Viernes: 8:00 a.m. – 6:00 p.m.<br />
+            Sábados: 8:00 a.m. – 1:00 p.m.
+          </p>
+        </div>
+      </div>
+
+      <p class="pie__copy">
+        &copy; 2026 AeroEstructuras - Todos los derechos reservados
+      </p>
+    </footer>
+  </body>
+</html>
